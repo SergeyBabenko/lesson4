@@ -4,7 +4,7 @@ import actions.Flyable
 import actions.Voiceable
 import actions.Walkable
 
-class Parrot(val name: String, var age: Int) : Flyable, Voiceable, Walkable {
+class Parrot(name: String, age: Int) : Pet(name, age), Flyable, Voiceable, Walkable {
     override fun fly() {
         println("$name is flying")
     }

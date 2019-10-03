@@ -3,7 +3,7 @@ package models
 import actions.Crawlable
 import actions.Voiceable
 
-class Snake(val name: String, var age: Int) : Crawlable, Voiceable {
+class Snake(name: String, age: Int) : Pet(name, age), Crawlable, Voiceable {
     override fun crawl() {
         println("$name is crawling")
     }

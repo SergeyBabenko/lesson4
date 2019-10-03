@@ -3,7 +3,7 @@ package models
 import actions.Voiceable
 import actions.Walkable
 
-class Cat(val name: String, var age: Int) : Voiceable, Walkable {
+class Cat(name: String, age: Int) : Pet(name, age), Voiceable, Walkable {
     override fun voice() {
         println("$name says: Meow!")
     }
