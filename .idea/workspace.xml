@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="7cbcdd7d-1398-4437-8922-35e8417c50fd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ru.tinkoff/models/Cat.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ru.tinkoff/models/Cat.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ru.tinkoff/models/Dog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ru.tinkoff/models/Dog.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ru.tinkoff/models/Fish.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ru.tinkoff/models/Fish.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ru.tinkoff/models/Parrot.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ru.tinkoff/models/Parrot.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ru.tinkoff/models/Snake.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ru.tinkoff/models/Snake.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +21,7 @@
         <option value="Class" />
         <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Interface" />
       </list>
     </option>
   </component>
