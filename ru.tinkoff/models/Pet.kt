@@ -19,4 +19,12 @@ abstract class Pet(val name: String, var age: Int) {
         isSleep = false
         println("$name woke up")
     }
+
+    fun goAway() {
+        println("$name is go away")
+    }
+
+    override fun toString(): String {
+        return "Name: $name, Age: $age"
+    }
 }

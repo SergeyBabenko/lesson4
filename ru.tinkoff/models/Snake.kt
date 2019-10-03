@@ -11,4 +11,8 @@ class Snake(name: String, age: Int) : Pet(name, age), Crawlable, Voiceable {
     override fun voice() {
         println("$name says: hs-s-s!")
     }
+
+    override fun toString(): String {
+        return "Animal: Snake, ${super.toString()} "
+    }
 }

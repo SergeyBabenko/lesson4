@@ -6,4 +6,8 @@ class Fish(name: String, age: Int) : Pet(name, age), Swimable {
     override fun swim() {
         println("$name is swimming")
     }
+
+    override fun toString(): String {
+        return "Animal: Fish, ${super.toString()} "
+    }
 }

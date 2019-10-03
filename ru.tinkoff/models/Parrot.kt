@@ -16,4 +16,8 @@ class Parrot(name: String, age: Int) : Pet(name, age), Flyable, Voiceable, Walka
     override fun walk() {
         println("$name is walking")
     }
+
+    override fun toString(): String {
+        return "Animal: Parrot, ${super.toString()} "
+    }
 }
